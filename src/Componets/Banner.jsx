@@ -2,7 +2,7 @@ import React from 'react'
 import Container from './Container'
 import Flex from './Flex'
 import Buttons from './Buttons'
-
+import img from '../assets/img.png'
 const Banner = () => {
   return (
     <div>
@@ -16,6 +16,9 @@ const Banner = () => {
                 <Buttons className='bg-DarkBlue text-black '>About</Buttons>
             </Flex>
         </div>
+            <div className='flex justify-center mt-20 mb-20'>
+                <img src={img} alt="" className='rounded-t-full h-100 w-90' />
+            </div>
       </Container>
     </div>
   )

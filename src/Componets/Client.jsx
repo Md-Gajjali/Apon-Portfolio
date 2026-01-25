@@ -48,7 +48,7 @@ const Client = () => {
           color: '#808080',
           borderRadius: "10px",
           padding: "10px",
-          margin: '50px 45px',
+          margin: '50px 8px',
         }}
       >
         <ul style={{ margin: "0px" }}> {dots} </ul>

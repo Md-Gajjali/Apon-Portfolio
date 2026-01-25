@@ -18,20 +18,15 @@ body{
 
 }
 
-
-
 .slick-slide{
   display: flex !important;
   flex-wrap: wrap !important;
   justify-content: center !important;
-  /* gap: 20px; */
-  margin:100px 6px -140px;  
+  margin:100px 1px -140px;  
 }
-
 
 .slick-dots .slick-active div{
     background-color:#a08ff3 ;
-    /* border: 2px solid #A395E9; */
 }
 
 

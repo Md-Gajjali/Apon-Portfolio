@@ -48,7 +48,7 @@ const Client = () => {
           color: '#808080',
           borderRadius: "10px",
           padding: "10px",
-          margin: '50px 8px',
+          margin: '50px 15px',
         }}
       >
         <ul style={{ margin: "0px" }}> {dots} </ul>
@@ -59,7 +59,7 @@ const Client = () => {
     ),
   };
   return (
-    <div className='mt-50'>
+    <div className='mt-50 mb-29'>
       <Container>
         <Heading
           title='My clients say'

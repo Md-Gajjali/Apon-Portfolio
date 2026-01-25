@@ -8,6 +8,7 @@ import Skills from './Componets/Skills'
 import Services from './Componets/Services'
 import Project from './Componets/Project'
 import Client from './Componets/Client'
+import Contact from './Componets/Contact'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
      <Services/>
      <Project/>
      <Client/>
+     <Contact/>
     </>
   )
 }

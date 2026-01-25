@@ -5,6 +5,8 @@ import Header from './Componets/Header'
 import Banner from './Componets/Banner'
 import About from './Componets/About'
 import Skills from './Componets/Skills'
+import Services from './Componets/Services'
+import Project from './Componets/Project'
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
      <Banner/>
      <About/>
      <Skills/>
+     <Services/>
+     <Project/>
     </>
   )
 }

@@ -7,7 +7,7 @@ const Banner = () => {
   return (
     <div>
       <Container>
-        <div className='text-center leading-12 mt-20 animate-blurred-fade-in duration-[2500ms]'>
+        <div className='text-center leading-12 mt-20 animate-blurred-fade-in '>
             <h4 className='text-white text-[17px]'>Hello, I'm</h4>
             <h1 className='text-5xl text-DarkBlue'>Emam Gajjali</h1>
             <p className='text-[19px] text-primary '>Frontend Developer</p>
@@ -16,7 +16,7 @@ const Banner = () => {
                 <Buttons className='bg-DarkBlue text-black  '>About</Buttons>
             </Flex>
         </div>
-            <div className='flex justify-center mt-20 mb-20'>
+            <div className='flex justify-center mt-20 mb-20 animate-blurred-fade-in '>
                 <img src={img} alt="" className='rounded-t-full h-90 w-90' />
             </div>
       </Container>

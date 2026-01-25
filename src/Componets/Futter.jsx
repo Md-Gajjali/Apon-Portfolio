@@ -7,7 +7,8 @@ import { FaLinkedin } from "react-icons/fa6";
 
 const Futter = () => {
   return (
-    <div className='text-black py-10 px-10 h-105 bg-DarkBlue text-center mt-20'>
+    <div className='text-black py-10 px-10 h-105 bg-DarkBlue text-center mt-20 timeline-[view(y)]animate-zoom-in animate-range-cover
+'>
       <Container>
         <h1 className='text-2xl text-black '>GAjjali</h1>
         <div className='text-center ml-95 mt-10'>

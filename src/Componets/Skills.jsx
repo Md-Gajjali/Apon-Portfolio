@@ -24,7 +24,7 @@ const Skills = () => {
                 <Container>
                     <Heading title='My Abilities' Header='My Experience' />
                     <Flex className='justify-between '>
-                        <div className='w-[45%]'>
+                        <div className='w-[45%] '>
                             <SkillCard
                                 Heading='Frontend Development'
                                 icons={<FaHtml5 />}

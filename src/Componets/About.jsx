@@ -11,12 +11,11 @@ import img from '../assets/img.png'
 
 const About = () => {
   return (
-    <div className='mt-40 
-'>
+    <div className='mt-40 '>
      <Container>
         <Heading title='My Intro' Header='About ME' />
 
-        <Flex className='gap-20 mt-20'>
+        <Flex className='gap-20 mt-20 '>
           <div className='  '>
             <img src={img} alt="" className='w-80 h-80  rounded-2xl'/>
           </div>

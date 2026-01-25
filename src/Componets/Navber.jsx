@@ -97,8 +97,8 @@ const Navber = () => {
             items={links}
           />
         </div> */}
-        <div className='flex justify-center '>
-            <ul className='flex gap-10 fixed round mt-20 z-80 text-2xl px-5 py-4 backdrop-blur-2xl bg-white/5 rounded-2xl  text-DarkBlue  bottom-10 '>
+        <div className='flex justify-center  '>
+            <ul className='flex animate-blurred-fade-in gap-10 fixed round mt-20 z-80 text-2xl px-5 py-4 backdrop-blur-2xl bg-black/50 rounded-2xl  text-DarkBlue  bottom-10 '>
                 <li><HiHome/></li>
                 <li><FaUser/></li>
                 <li><FaBook/></li>

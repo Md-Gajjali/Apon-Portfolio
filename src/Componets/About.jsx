@@ -34,7 +34,7 @@ const About = () => {
                 Heading='Support' 
                 title='Online 24/7' />
             </Flex>
-            <p className='text-primary w-155 py-9 text-[20px]'>Frontend Developer. I create web pages with UI / UX user interfaces, I have years of experience and many clients are happy with the woek i did.</p>
+            <p className='text-primary w-155 py-9 text-[19px]'>Frontend Developer. I create web pages with UI / UX user interfaces, I have years of experience and many clients are happy with the woek i did.</p>
             <Buttons className='bg-DarkBlue w-50 px-10  '>Contant Me</Buttons>
           </div>
         </Flex>

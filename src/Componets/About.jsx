@@ -33,7 +33,7 @@ const About = () => {
                 Heading='Support' 
                 title='Online 24/7' />
             </div>
-            <p className='text-primary lg:w-155  py-9 text-[19px] px-4 lg:0 '>Frontend Developer. I create web pages with UI / UX user interfaces, I have years of experience and many clients are happy with the woek i did.</p>
+            <p className='text-primary lg:w-155  py-9 text-[19px] px-4 lg:px-0 text-center lg:text-justify '>Frontend Developer. I create web pages with UI / UX user interfaces, I have years of experience and many clients are happy with the woek i did.</p>
             <Buttons className='bg-DarkBlue w-50 px-10 mx-auto lg:mx-0  '>Contant Me</Buttons>
           </div>
         </Flex>

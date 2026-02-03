@@ -65,15 +65,8 @@ const Client = () => {
           title='My clients say'
           Header='Testimonials'
         />
-        {/* <Flex className='mt-30 gap-30 justify-center'>
 
-            <ClientCard 
-            imgSrc={testimonial2} 
-            heading='Ada Hill' 
-            title='A really good job, all aspects of the project were done well. Very creative and thoughtful. I was very impressed and would recommend this to anyone'  />
-            
-        </Flex> */}
-        <Slider {...settings} className='flex justify-center'>
+        <Slider {...settings} className='flex justify-center '>
           <div>
             <ClientCard
               imgSrc={testimonial1}

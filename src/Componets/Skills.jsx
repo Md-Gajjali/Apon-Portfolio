@@ -23,8 +23,7 @@ const Skills = () => {
             <div className='mt-50  '>
                 <Container>
                     <Heading title='My Abilities' Header='My Experience' />
-                    <Flex className='justify-between '>
-                        <div className='w-[45%] '>
+                    <Flex className='justify-between  flex-col lg:flex-row px-4'>
                             <SkillCard
                                 Heading='Frontend Development'
                                 icons={<FaHtml5 />}
@@ -49,8 +48,7 @@ const Skills = () => {
                                 subSkil5='advanced'
 
                             />
-                        </div>
-                        <div className='w-[47%] '>
+
                             <SkillCard
                                 Heading='Frontend Development'
                                 icons={<TbBrandJavascript />}
@@ -75,7 +73,6 @@ const Skills = () => {
                                 subSkil5='advanced'
 
                             />
-                        </div>
                     </Flex>
                 </Container>
             </div>

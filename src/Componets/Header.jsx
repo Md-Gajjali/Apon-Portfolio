@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div>
       <Container>
-        <Flex className='justify-between mt-10 animate-blurred-fade-in '>
+        <Flex className='justify-between mt-10 animate-blurred-fade-in px-3 '>
             <h3 className='text-2xl text-DarkBlue'>Emam</h3>
             <FaMoon className='text-DarkBlue text-[20px]'/>
         </Flex>

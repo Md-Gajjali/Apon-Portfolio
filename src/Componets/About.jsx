@@ -15,12 +15,12 @@ const About = () => {
      <Container>
         <Heading title='My Intro' Header='About ME' />
 
-        <Flex className='gap-20 mt-20 '>
-          <div className='  '>
-            <img src={img} alt="" className='w-80 h-80  rounded-2xl'/>
+        <Flex className='gap-20 mt-20 flex-col lg:flex-row '>
+          <div className='flex  justify-center items-center '>
+            <img src={img} alt="" className='w-80 h-80  rounded-2xl '/>
           </div>
           <div>
-            <Flex className='justify-between gap-10'>
+            <div className='lg:flex justify-between gap-10 px-3 lg:px-0    '>
                 <MiniCard icon={<IoRibbon />}  
                 Heading=' Experience' 
                 title='8 Months Working' />
@@ -32,9 +32,9 @@ const About = () => {
                 <MiniCard icon={<BiSupport />}  
                 Heading='Support' 
                 title='Online 24/7' />
-            </Flex>
-            <p className='text-primary w-155 py-9 text-[19px]'>Frontend Developer. I create web pages with UI / UX user interfaces, I have years of experience and many clients are happy with the woek i did.</p>
-            <Buttons className='bg-DarkBlue w-50 px-10  '>Contant Me</Buttons>
+            </div>
+            <p className='text-primary lg:w-155  py-9 text-[19px] px-4 lg:0 '>Frontend Developer. I create web pages with UI / UX user interfaces, I have years of experience and many clients are happy with the woek i did.</p>
+            <Buttons className='bg-DarkBlue w-50 px-10 mx-auto lg:mx-0  '>Contant Me</Buttons>
           </div>
         </Flex>
      </Container>

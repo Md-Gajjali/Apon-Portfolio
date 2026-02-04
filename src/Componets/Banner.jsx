@@ -17,7 +17,7 @@ const Banner = () => {
             </Flex>
         </div>
             <div className='flex justify-center mt-20 mb-20 animate-blurred-fade-in '>
-                <img src={img} alt="" className='rounded-t-full h-90 w-90' />
+                <img src={img} alt="" className='rounded-t-full px-3 w-80 h-80  lg:h-90 lg:w-90' />
             </div>
       </Container>
     </div>

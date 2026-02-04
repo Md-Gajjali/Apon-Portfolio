@@ -57,6 +57,48 @@ const Client = () => {
     customPaging: i => (
       <div className='w-3 h-3 rounded-full bg-primary ' />
     ),
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 700,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1
+        }
+      }
+    ]
+    
   };
   return (
     <div className='mt-50 mb-29'>
@@ -66,7 +108,7 @@ const Client = () => {
           Header='Testimonials'
         />
 
-        <Slider {...settings} className='flex justify-center '>
+        <Slider {...settings} className='flex justify-center px-2'>
           <div>
             <ClientCard
               imgSrc={testimonial1}

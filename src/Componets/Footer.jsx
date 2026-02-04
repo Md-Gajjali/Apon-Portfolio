@@ -5,9 +5,9 @@ import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 
 
-const Futter = () => {
+const Footer = () => {
   return (
-    <div className='text-black py-10 px-10 h-105 bg-DarkBlue text-center mt-20 timeline-[view(y)]animate-zoom-in animate-range-cover
+    <div className='text-black py-10 px-10 h-105 bg-DarkBlue text-center mt-20 
 '>
       <Container>
         <h1 className='text-2xl text-black '>GAjjali</h1>
@@ -31,4 +31,4 @@ const Futter = () => {
   )
 }
 
-export default Futter
+export default Footer

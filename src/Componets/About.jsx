@@ -17,7 +17,7 @@ const About = () => {
 
         <Flex className='gap-20 mt-20 flex-col lg:flex-row '>
           <div className='flex  justify-center items-center '>
-            <img src={img} alt="" className='w-80 h-80  rounded-2xl '/>
+            <img src={img} alt="" className='lg:w-80 lg:h-80  w-70 h-70  rounded-2xl '/>
           </div>
           <div>
             <div className='lg:flex justify-between gap-10 px-3 lg:px-0    '>

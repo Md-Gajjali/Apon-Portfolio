@@ -17,8 +17,8 @@ const Contact = () => {
             title="Get in touch" 
             Header='Contact Me'
         />
-        <div className='lg:flex flex flex-col px-3 mt-20 lg:justify-between'>
-            <div className=' flex flex-col items-center justify-center'>
+        <div className='lg:flex  flex-col-1 px-3 mt-20 lg:justify-between'>
+            <div className=' flex flex-col items-center justify-center '>
                 <ContactCard 
                 icons={<BiLogoGmail />} 
                 iconNAme='gmail'
@@ -42,7 +42,7 @@ const Contact = () => {
 
 
             </div>
-            <div className=''>
+            <div className='px-3'>
                 <div className='mt-10'>
                     <label htmlFor="" className='text-[20px] text-primary'> Your Name</label>
                     <input type="text" placeholder='Inter Your Name' className='w-full h-17 py-4 px-6 text-primary border-[#252C38]! border-3 mt-3 rounded-2xl' />

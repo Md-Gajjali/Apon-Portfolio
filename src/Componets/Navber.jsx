@@ -98,7 +98,7 @@ const Navber = () => {
           />
         </div> */}
         <div className='flex justify-center  '>
-            <ul className='flex animate-blurred-fade-in gap-10 fixed round mt-20 z-80 text-2xl px-5 py-4 backdrop-blur-2xl bg-black/50 rounded-2xl  text-DarkBlue  bottom-10 '>
+            <ul className='flex animate-blurred-fade-in gap-10 fixed round mt-20 z-80 text-2xl px-5 py-4 backdrop-blur-2xl bg-black/50 rounded-2xl  text-DarkBlue  bottom-2 '>
                 <li><HiHome/></li>
                 <li><FaUser/></li>
                 <li><FaBook/></li>

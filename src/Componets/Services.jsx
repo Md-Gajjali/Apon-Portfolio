@@ -9,9 +9,9 @@ const Services = () => {
       <Container>
         <Heading  title='My Service' Header='What I Offer' />
         <div className='lg:justify-between  mt-20  flex flex-col  gap-6 lg:flex-row justify-center items-center   '>
-            <ServiceCard heading='Clean & Maintainable Code' btn='See More'  />
-            <ServiceCard heading='Responsive Web Design' btn='See More' />
-            <ServiceCard heading='Time Management' btn='See More' />
+            <ServiceCard heading='Clean & Maintainable Code'   />
+            <ServiceCard heading='Responsive Web Design'   />
+            <ServiceCard heading='Time Management'  />
         </div>
       </Container>
     </div>

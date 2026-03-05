@@ -20,7 +20,7 @@ import { RiUserCommunityFill } from "react-icons/ri";
 const Skills = () => {
     return (
         <>
-            <div className='mt-50  '>
+            <div id='Skills' className='mt-50  '>
                 <Container>
                     <Heading title='My Abilities' Header='My Experience' />
                     <Flex className='justify-between  flex-col lg:flex-row px-4'>

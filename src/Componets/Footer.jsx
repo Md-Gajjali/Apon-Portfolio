@@ -3,6 +3,7 @@ import Container from './Container'
 import { FaFacebook } from "react-icons/fa6";
 import { FaTwitter } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
+import { FaSquareGithub } from "react-icons/fa6";
 
 
 const Footer = () => {
@@ -24,6 +25,7 @@ const Footer = () => {
             <li><FaFacebook/></li>
             <li><FaTwitter/></li>
             <li><FaLinkedin/></li>
+            <li><FaSquareGithub /></li>
           </ul>
         </div>
       </Container>

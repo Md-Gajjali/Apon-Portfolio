@@ -11,7 +11,7 @@ import img from '../assets/img.png'
 
 const About = () => {
   return (
-    <div className='mt-40 '>
+    <div id='About' className='mt-40 '>
      <Container>
         <Heading title='My Intro' Header='About ME' />
 

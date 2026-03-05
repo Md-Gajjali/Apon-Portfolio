@@ -11,7 +11,7 @@ import Buttons from './Buttons'
 
 const Contact = () => {
   return (
-    <div className='mt-50 '>
+    <div id='contact' className='mt-50 '>
       <Container>
         <Heading 
             title="Get in touch" 

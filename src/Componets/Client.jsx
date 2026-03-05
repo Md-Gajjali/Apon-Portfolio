@@ -42,21 +42,6 @@ const Client = () => {
     slidesToScroll: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
-    appendDots: dots => (
-      <div
-        style={{
-          color: '#808080',
-          borderRadius: "10px",
-          padding: "10px",
-          margin: '50px 15px',
-        }}
-      >
-        <ul style={{ margin: "0px" }}> {dots} </ul>
-      </div>
-    ),
-    customPaging: i => (
-      <div className='w-3 h-3 rounded-full bg-primary ' />
-    ),
     responsive: [
       {
         breakpoint: 1024,
@@ -97,7 +82,23 @@ const Client = () => {
           initialSlide: 1
         }
       }
-    ]
+    ],
+    appendDots: dots => (
+      <div
+        style={{
+          color: '#808080',
+          borderRadius: "10px",
+          padding: "10px",
+          margin: '50px 15px',
+        }}
+      >
+        <ul style={{ margin: "0px" }}> {dots} </ul>
+      </div>
+    ),
+    customPaging: i => (
+      <div className='w-3 h-3 rounded-full bg-primary ' />
+    ),
+    
     
   };
   return (

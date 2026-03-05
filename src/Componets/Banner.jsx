@@ -8,7 +8,7 @@ const Banner = () => {
 
 
   return (
-    <div>
+    <div id='Banner'>
       <Container>
         <div className='text-center leading-12 mt-20 animate-blurred-fade-in '>
             <h4 className='text-white text-[17px]'>Hello, I'm</h4>

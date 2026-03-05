@@ -9,7 +9,7 @@ import Buttons from './Buttons'
 
 const Project = () => {
   return (
-    <div className='mt-50 '>
+    <div id='Project' className='mt-50 '>
       <Container>
         <Heading title='My Project' Header='Recent project ' />
         <div className='lg:justify-between  mt-20  flex flex-col  gap-6 lg:flex-row justify-center items-center   '>

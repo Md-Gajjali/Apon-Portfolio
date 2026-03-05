@@ -6,7 +6,7 @@ const SkillCard = ({ icons, Skills, subSkil, Heading, icons1, Skills1, subSkil1,
         <>
         <div className='W-full   backdrop-blur-2xl bg-white/5 py-10 px-6 lg:px-20 mt-30 rounded-2xl '>
             <h3 className='text-DarkBlue text-center pb-10'>{Heading}</h3>
-            <div className='flex justify-between gap-4 lg:gap-10'>
+            <div className='flex   gap-15 lg:gap-15'>
                     <div>
                         <Flex className='items-center gap-2 '>
                             <span className='text-DarkBlue lg:text-5xl text-4xl'>{icons}</span>
@@ -48,7 +48,7 @@ const SkillCard = ({ icons, Skills, subSkil, Heading, icons1, Skills1, subSkil1,
                         <Flex className='items-center gap-2 mt-10'>
                             <span className='text-DarkBlue lg:text-5xl text-4xl'>{icons5}</span>
                             <div>
-                                <h3 className='text-white lg:text-[19px] text-[1px]'>{Skills5}</h3>
+                                <h3 className='text-white! lg:text-[19px] text-[18px]'>{Skills5}</h3>
                                 <span className='text-primary  text-[16px]'>{subSkil5}</span>
                             </div>
                         </Flex>

@@ -7,7 +7,7 @@ import { FaLinkedin } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className='bg-DarkBlue py-20 mt-10'>
+    <footer className='bg-DarkBlue py-20 mt-10 '>
       <Container>
         <h2 className='text-center text-2xl font-normal'>Emam Gajjali</h2>
         <div  className='flex justify-center mt-8 '>

@@ -3,7 +3,10 @@ import Container from './Container'
 import Flex from './Flex'
 import Buttons from './Buttons'
 import img from '../assets/img.png'
+
 const Banner = () => {
+
+
   return (
     <div>
       <Container>

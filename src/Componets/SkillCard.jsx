@@ -8,47 +8,47 @@ const SkillCard = ({ icons, Skills, subSkil, Heading, icons1, Skills1, subSkil1,
             <h3 className='text-DarkBlue text-center pb-10'>{Heading}</h3>
             <div className='flex justify-between gap-4 lg:gap-10'>
                     <div>
-                        <Flex className='items-center '>
-                            <span className='text-DarkBlue text-5xl '>{icons}</span>
+                        <Flex className='items-center gap-2 '>
+                            <span className='text-DarkBlue lg:text-5xl text-4xl'>{icons}</span>
                             <div>
-                                <h3 className='text-white text-[19px]'>{Skills}</h3>
-                                <span className='text-primary  text-[16px]'>{subSkil}</span>
+                                <h3 className='text-white lg:text-[19px] text-[17px] '>{Skills}</h3>
+                                <span className='text-primary  lg:text-[16px] text-[15px]'>{subSkil}</span>
                             </div>
                         </Flex>
-                        <Flex className='items-center  mt-10'>
-                            <span className='text-DarkBlue text-5xl'>{icons1}</span>
+                        <Flex className='items-center gap-2 mt-10'>
+                            <span className='text-DarkBlue lg:text-5xl text-3xl'>{icons1}</span>
                             <div>
-                                <h3 className='text-white text-[19px]'>{Skills1}</h3>
-                                <span className='text-primary  text-[16px] '>{subSkil1}</span>
+                                <h3 className='text-white lg:text-[19px] text-[18px] '>{Skills1}</h3>
+                                <span className='text-primary   text-[16px] '>{subSkil1}</span>
                             </div>
                         </Flex>
-                        <Flex className='items-center   mt-10'>
-                            <span className='text-DarkBlue text-5xl'>{icons2}</span>
+                        <Flex className='items-center gap-2   mt-10'>
+                            <span className='text-DarkBlue lg:text-5xl text-4xl'>{icons2}</span>
                             <div>
-                                <h3 className='text-white text-[19px]'>{Skills2}</h3>
+                                <h3 className='text-white lg:text-[19px] text-[18px]'>{Skills2}</h3>
                                 <span className='text-primary  text-[16px]'>{subSki2}</span>
                             </div>
                         </Flex>
                     </div>
                     <div  >
-                        <Flex className='items-center   '>
-                            <span className='text-DarkBlue text-5xl'>{icons3}</span>
+                        <Flex className='items-center  gap-2 '>
+                            <span className='text-DarkBlue lg:text-5xl text-4xl'>{icons3}</span>
                             <div>
-                                <h3 className='text-white text-[19px]'>{Skills3}</h3>
+                                <h3 className='text-white lg:text-[19px] text-[18px]'>{Skills3}</h3>
                                 <span className='text-primary  text-[16px]'>{subSkil3}</span>
                             </div>
                         </Flex>
-                        <Flex className='items-center  mt-10'>
-                            <span className='text-DarkBlue text-5xl'>{icons4}</span>
+                        <Flex className='items-center gap-2 mt-10'>
+                            <span className='text-DarkBlue lg:text-5xl text-[18px]'>{icons4}</span>
                             <div>
-                                <h3 className='text-white text-[19px]'>{Skills4}</h3>
+                                <h3 className='text-white lg:text-[19px] text-[18px]'>{Skills4}</h3>
                                 <span className='text-primary  text-[16px]'>{subSkil4}</span>
                             </div>
                         </Flex>
-                        <Flex className='items-center  mt-10'>
-                            <span className='text-DarkBlue text-5xl'>{icons5}</span>
+                        <Flex className='items-center gap-2 mt-10'>
+                            <span className='text-DarkBlue lg:text-5xl text-4xl'>{icons5}</span>
                             <div>
-                                <h3 className='text-white text-[19px]'>{Skills5}</h3>
+                                <h3 className='text-white lg:text-[19px] text-[1px]'>{Skills5}</h3>
                                 <span className='text-primary  text-[16px]'>{subSkil5}</span>
                             </div>
                         </Flex>

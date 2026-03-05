@@ -4,7 +4,8 @@ import Flex from './Flex'
 const SkillCard = ({ icons, Skills, subSkil, Heading, icons1, Skills1, subSkil1, subSki2, Skills2, icons2, icons3, Skills3, subSkil3, icons4, Skills4, subSkil4, icons5, Skills5, subSkil5 }) => {
     return (
         <>
-        <div className='W-full   backdrop-blur-2xl bg-white/5 py-10 px-6 lg:px-20 mt-30 rounded-2xl '>
+        <div className='timeline-view animate-blurred-fade-in animate-range-[entry_5%_contain_70%]
+ lg:justify-between W-full   backdrop-blur-2xl bg-white/5 py-10 px-6 lg:px-20 mt-30 rounded-2xl '>
             <h3 className='text-DarkBlue text-center pb-10'>{Heading}</h3>
             <div className='flex   gap-15 lg:gap-15'>
                     <div>
